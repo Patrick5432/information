@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+.container {
+    width: 1440px;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+.information-for-citizen h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.information-for-citizen nav {
+    display: flex;
+}
+
+.information-for-citizen ul {
+    background: #EDF2FF;
+    border-radius: 20px;
+    width: 382px;
+    max-width: 333px;
+    font-size: 20px;
+    margin-left: 99px;
+    margin-top: 32px;
+}
+
+.information-for-citizen ul .first-information {
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.information-for-citizen ul .first-information a {
+    color: #4C9E6E;
+}
+
+.information-for-citizen ul li {
+    margin-bottom: 17px;
+    margin-left: 24px;
+    margin-right: 25px;
+}
+
+.information-for-citizen ul li a {
+    color: #3D3D3D;
+}

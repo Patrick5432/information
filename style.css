@@ -43,7 +43,7 @@ body {
     width: 382px;
     max-width: 333px;
     font-size: 20px;
-    margin-left: 99px;
+    margin: 0 auto;
     margin-top: 32px;
 }
 
@@ -52,7 +52,7 @@ body {
     margin-bottom: 17px;
 }
 
-.information-for-citizen ul .first-information a {
+.information-for-citizen ul li a:hover {
     color: #4C9E6E;
 }
 
@@ -64,4 +64,8 @@ body {
 
 .information-for-citizen ul li a {
     color: #3D3D3D;
+}
+
+.information-for-citizen ul .last-information {
+    margin-bottom: 27px;
 }
